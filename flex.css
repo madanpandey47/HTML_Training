@@ -1,0 +1,45 @@
+body{
+     margin:20px;
+     padding: 20px;
+     background-color: rgb(255, 1, 174);
+}
+.box{
+    margin: 20px;
+    border: 50px solid rgb(0, 0, 0);
+    background-color: rgb(255, 0, 0);
+    height: 150px;
+    width: 150px;
+    rotate: 1 1 0 60deg;
+    justify-content: space-between;
+    display:inline-block;
+    animation: box 0.1s infinite;
+}
+
+.box1{
+    margin: 20px;
+    border: 50px solid rgb(0, 0, 0);
+    background-color: rgb(246, 255, 0);
+    height: 150px;
+    width: 150px;
+    display:inline-block;
+    rotate: 1 1 0 60deg;
+    justify-content: space-between;
+    animation: box 0.1s infinite;
+}
+
+.box2{
+    margin: 20px;
+    border: 50px solid rgb(0, 0, 0);
+    background-color: rgb(60, 255, 0);
+    height: 150px;
+    width: 150px;
+    display:inline-block;
+    rotate: 1 1 0 60deg;
+    justify-content: space-between;
+    animation: box 0.1s infinite;
+}
+
+ @keyframes box{
+    100% {transform:rotate(180deg);}
+  } 
+

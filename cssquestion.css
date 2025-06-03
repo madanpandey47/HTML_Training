@@ -1,0 +1,169 @@
+
+body{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background-color: bisque;
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+
+.primary{
+    margin: 15px;
+    font: inherit;
+    background-color: rgb(0, 255, 255);
+    border: 2px black solid;
+    border-radius: 10px;
+    font-size: 0.8rem;
+    padding: 10px;
+  
+}
+
+.primary:hover{
+    background-color: #0099ff;
+    font-weight: bold;
+}
+
+.secondary{
+    margin: 15px;
+    font: inherit;
+    background-color: rgb(255, 0, 162);
+    border: 2px black solid;
+    border-radius: 10px;
+    font-size: 0.8rem;
+    padding: 10px;
+  
+}
+
+.secondary:hover{
+    background-color: #6600ff;
+    font-weight: bold;
+}
+.Danger{
+    margin: 15px;
+    font: inherit;
+    background-color:rgb(0, 255, 123) ;
+    border: 2px black solid;
+    border-radius: 10px;
+    font-size: 0.8rem;
+    padding: 10px;
+  
+}
+
+.Danger:hover{
+    background-color: #ff0000;
+    font-weight: bold;
+}
+
+.link{
+    gap: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: darkblue;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.link:hover{
+    color: darkolivegreen;
+    font-weight: bold;
+    scale:2;
+    text-decoration: underline;
+}
+
+.head1{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: blue;
+    font-size: 30px;
+    text-align: center;
+}
+
+.head2{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    color: red;
+    font-size: 25px;
+    text-align: right;
+}
+
+.head3{
+    font-family:cursive;
+    font-weight: bold;
+    color: green;
+    font-size: 20px;
+    text-align: left;
+    text-decoration: underline;
+}
+
+.par1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: rgb(179, 255, 0);
+    font-size: 15px;
+}
+
+.par2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: crimson;
+    font-size: 15px;
+}
+
+.par3{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: yellow;
+    font-size: 15px;
+}
+
+.box{
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.box1{
+    border: 5px solid;
+    background: linear-gradient(to left,rgb(20, 128, 83),rgb(159, 183, 63));
+    padding: 10px;
+    height: 250px;
+    width: 250px;
+    box-shadow: 5px 10px 0px 0px #7cada3;
+    border-radius: 20px;
+}
+
+.box2{
+    
+    border: 2px solid;
+    padding: 10px;
+    background: linear-gradient(to right,rgb(46, 83, 140),rgb(128, 56, 78));
+    height: 250px;
+    width: 250px;
+}
+
+.box1:hover{
+    box-shadow: 0px 0px 10px 5px #000000;
+}
+
+.image{
+    height: 100px;
+    width: 150px;
+}
+
+.image:hover{
+    scale: 2;
+    
+}
+
+.ipar{
+    font-size: 20px;
+
+}
